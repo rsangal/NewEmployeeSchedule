@@ -1,0 +1,220 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  
+            android:stretchColumns="*" 
+            android:background="#ffffff" 
+            android:id="@+id/table1" >
+
+                        <!-- Row 1  -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal" 
+                            android:background="@drawable/border"
+                             >
+
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Employees(hours)"  android:layout_span="3"
+                                android:padding="3dip" android:textColor="#FAFBFC"
+                                  />
+                            
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Mon(8)"  android:layout_span="1"
+                                android:padding="3dip" android:textColor="#FAFBFC"
+                                android:background="@drawable/border"
+                                />
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Tue(9)"  android:layout_span="1"
+                                android:padding="3dip" android:textColor="#FAFBFC"
+                                android:background="@drawable/border" />
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Wed(10)"  android:layout_span="1"
+                                android:padding="3dip" 
+                                android:textColor="#FAFBFC" android:background="@drawable/border"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Thu(11)"  android:layout_span="1"
+                                android:padding="3dip" 
+                                android:textColor="#FAFBFC" android:background="@drawable/border"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Fri(12)"  android:layout_span="1"
+                                android:padding="3dip" 
+                                android:textColor="#FAFBFC" android:background="@drawable/border"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Sat(13)"  android:layout_span="1"
+                                android:padding="3dip" 
+                                android:textColor="#FAFBFC" android:background="@drawable/border"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="Sun(14)"  android:layout_span="1"
+                                android:padding="3dip" 
+                                android:textColor="#FAFBFC"/>
+                            
+
+                       </TableRow>
+                       
+                        
+                        <!-- Row 2  -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal" 
+                            
+                            android:background="@drawable/border2"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp"   android:layout_span="3"
+                                android:padding="6dip" android:textColor="#000000"
+                                android:background="@drawable/border2"
+                                
+                                />
+                            
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" android:textColor="#000000"
+                                android:background="@drawable/border2"
+                                />
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp" android:text="COPY DAY"  android:layout_span="1"
+                                android:padding="6dip" 
+                                android:textColor="#000000"
+                                android:background="@drawable/border2"/>
+                            
+
+                       </TableRow>
+         
+                        
+                        
+                        <!-- Row 3  -->
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal" 
+                            
+                            android:background="@drawable/border2"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent" android:layout_height="wrap_content"
+                                android:textSize="10dp"   android:layout_span="3"
+                                android:padding="9dip" android:textColor="#000000"
+                                android:background="@drawable/border2"
+                                android:text="Open Shift"
+                                 >
+                                                          </TextView>
+                            
+                          
+
+<ImageView
+           android:id="@+id/img1" 
+          android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp"/>
+       
+<ImageView 
+     android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp" 
+      android:id="@+id/img2"
+      >
+  </ImageView> 
+  
+                           <ImageView
+           android:id="@+id/imgg3" 
+           android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp"
+     >
+        </ImageView>
+       
+<ImageView 
+     android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp" 
+      android:id="@+id/img4"
+      >
+  </ImageView> 
+
+                         <ImageView
+           android:id="@+id/imgg5" 
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp"
+     >
+        </ImageView>
+       
+<ImageView 
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp"
+      android:id="@+id/img6"
+      >
+  </ImageView> 
+  <ImageView 
+      android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:src="@drawable/addshift" 
+      android:background="@drawable/border2"
+      android:paddingTop="4dp"
+      android:paddingBottom="4dp"
+      android:id="@+id/img7"
+     
+      >
+  </ImageView>                             
+
+                       </TableRow>
+                        
+
+                          </TableLayout>
